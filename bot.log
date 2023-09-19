@@ -1,11 +1,7 @@
-09-19 11:54 asyncio      DEBUG    Using selector: EpollSelector
-09-19 11:54 aiogram.dispatcher INFO     Start polling
-09-19 11:54 aiogram.dispatcher INFO     Run polling for bot @iwmemebot id=6664233225 - 'memebot'
-09-19 11:58 aiogram.event INFO     Update id=383413540 is handled. Duration 490 ms by bot id=6664233225
-09-19 11:58 root         INFO     user None query волк
-09-19 11:58 aiogram.event INFO     Update id=383413541 is handled. Duration 384 ms by bot id=6664233225
-09-19 11:58 root         INFO     user 365770300 liked 61
-09-19 11:58 aiogram.event INFO     Update id=383413542 is handled. Duration 1010 ms by bot id=6664233225
-09-19 12:12 aiogram.dispatcher WARNING  Received SIGINT signal
-09-19 12:12 aiogram.dispatcher INFO     Polling stopped for bot @iwmemebot id=6664233225 - 'memebot'
-09-19 12:12 aiogram.dispatcher INFO     Polling stopped
+09-19 12:21 asyncio      DEBUG    Using selector: EpollSelector
+09-19 12:21 aiogram.dispatcher INFO     Start polling
+09-19 12:21 aiogram.dispatcher INFO     Run polling for bot @iwmemebot id=6664233225 - 'memebot'
+09-19 12:21 aiogram.event INFO     Update id=383413543 is handled. Duration 2033 ms by bot id=6664233225
+09-19 12:22 aiogram.dispatcher WARNING  Received SIGINT signal
+09-19 12:22 aiogram.dispatcher INFO     Polling stopped for bot @iwmemebot id=6664233225 - 'memebot'
+09-19 12:22 aiogram.dispatcher INFO     Polling stopped
