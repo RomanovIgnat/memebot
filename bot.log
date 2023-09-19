@@ -1,7 +1,127 @@
-09-19 12:21 asyncio      DEBUG    Using selector: EpollSelector
-09-19 12:21 aiogram.dispatcher INFO     Start polling
-09-19 12:21 aiogram.dispatcher INFO     Run polling for bot @iwmemebot id=6664233225 - 'memebot'
-09-19 12:21 aiogram.event INFO     Update id=383413543 is handled. Duration 2033 ms by bot id=6664233225
-09-19 12:22 aiogram.dispatcher WARNING  Received SIGINT signal
-09-19 12:22 aiogram.dispatcher INFO     Polling stopped for bot @iwmemebot id=6664233225 - 'memebot'
-09-19 12:22 aiogram.dispatcher INFO     Polling stopped
+09-19 12:32 asyncio      DEBUG    Using selector: EpollSelector
+09-19 12:32 aiogram.dispatcher INFO     Start polling
+09-19 12:32 aiogram.dispatcher INFO     Run polling for bot @iwmemebot id=6664233225 - 'memebot'
+09-19 12:32 root         INFO     user None query привет
+09-19 12:33 root         INFO     user None query привет
+09-19 12:33 aiogram.event INFO     Update id=383413546 is handled. Duration 398 ms by bot id=6664233225
+09-19 12:33 root         INFO     user 907248721 next 61
+09-19 12:33 aiogram.event INFO     Update id=383413547 is handled. Duration 591 ms by bot id=6664233225
+09-19 12:33 root         INFO     user 907248721 liked 15
+09-19 12:33 aiogram.event INFO     Update id=383413548 is handled. Duration 350 ms by bot id=6664233225
+09-19 12:33 root         INFO     user 907248721 next 28
+09-19 12:33 aiogram.event INFO     Update id=383413549 is handled. Duration 349 ms by bot id=6664233225
+09-19 12:33 root         INFO     user 907248721 disliked 27
+09-19 12:33 aiogram.event INFO     Update id=383413550 is handled. Duration 604 ms by bot id=6664233225
+09-19 12:33 aiogram.event INFO     Update id=383413544 is not handled. Duration 60706 ms by bot id=6664233225
+09-19 12:33 aiogram.event ERROR    Cause exception while process update id=383413544 by bot id=6664233225
+TelegramNetworkError: HTTP Client says - Request timeout error
+Traceback (most recent call last):
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 167, in make_request
+    async with session.post(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiohttp/client.py", line 467, in _request
+    with timer:
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/mnt/c/Users/123/Desktop/IW/memebot/memebot.py", line 23, in send_welcome
+    await message.answer(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/client/bot.py", line 432, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/client/session/base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 172, in make_request
+    raise TelegramNetworkError(method=method, message="Request timeout error")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - Request timeout error
+09-19 12:33 aiogram.event INFO     Update id=383413545 is not handled. Duration 60891 ms by bot id=6664233225
+09-19 12:33 aiogram.event ERROR    Cause exception while process update id=383413545 by bot id=6664233225
+TelegramNetworkError: HTTP Client says - Request timeout error
+Traceback (most recent call last):
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 167, in make_request
+    async with session.post(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiohttp/client.py", line 467, in _request
+    with timer:
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/mnt/c/Users/123/Desktop/IW/memebot/memebot.py", line 138, in find_mem
+    res = await message.answer_photo(mem, reply_markup=get_keyboard_for_search(user_id, cur_display))
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/client/bot.py", line 432, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/client/session/base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 172, in make_request
+    raise TelegramNetworkError(method=method, message="Request timeout error")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - Request timeout error
+09-19 12:34 root         INFO     user 907248721 liked 26
+09-19 12:34 aiogram.event INFO     Update id=383413551 is handled. Duration 624 ms by bot id=6664233225
+09-19 12:34 aiogram.dispatcher WARNING  Received SIGINT signal
+09-19 12:34 aiogram.dispatcher INFO     Polling stopped for bot @iwmemebot id=6664233225 - 'memebot'
+09-19 12:34 aiogram.dispatcher INFO     Polling stopped

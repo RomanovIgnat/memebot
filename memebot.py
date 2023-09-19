@@ -119,8 +119,8 @@ async def look_mem(message: types.Message, user_id=None):
 @dp.message(F.text)
 async def find_mem(message: types.Message, user_id=None):
     if user_id is None:
-        logging.info(f'user {user_id} query {message.text.lower()}')
         user_id = message.from_user.id
+        logging.info(f'user {user_id} query {message.text.lower()}')
         CURRENT_USER_DATA[user_id] = get_data_for_user(
             mode='search', user_id=user_id, query=set(message.text.lower().strip().split())
         )
