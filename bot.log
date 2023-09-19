@@ -1,7 +1,20 @@
-09-19 12:21 asyncio      DEBUG    Using selector: EpollSelector
-09-19 12:21 aiogram.dispatcher INFO     Start polling
-09-19 12:21 aiogram.dispatcher INFO     Run polling for bot @iwmemebot id=6664233225 - 'memebot'
-09-19 12:21 aiogram.event INFO     Update id=383413543 is handled. Duration 2033 ms by bot id=6664233225
-09-19 12:22 aiogram.dispatcher WARNING  Received SIGINT signal
-09-19 12:22 aiogram.dispatcher INFO     Polling stopped for bot @iwmemebot id=6664233225 - 'memebot'
-09-19 12:22 aiogram.dispatcher INFO     Polling stopped
+09-19 13:35 asyncio      DEBUG    Using selector: EpollSelector
+09-19 13:35 aiogram.dispatcher INFO     Start polling
+09-19 13:35 aiogram.dispatcher INFO     Run polling for bot @iwmemebot id=6664233225 - 'memebot'
+09-19 13:35 aiogram.event INFO     Update id=383413552 is handled. Duration 203 ms by bot id=6664233225
+09-19 13:35 aiogram.event INFO     Update id=383413554 is handled. Duration 245 ms by bot id=6664233225
+09-19 13:35 aiogram.event INFO     Update id=383413553 is handled. Duration 291 ms by bot id=6664233225
+09-19 13:35 aiogram.event INFO     Update id=383413555 is handled. Duration 428 ms by bot id=6664233225
+09-19 13:35 root         INFO     user None query волк тот
+09-19 13:35 aiogram.event INFO     Update id=383413556 is handled. Duration 251 ms by bot id=6664233225
+09-19 13:36 root         INFO     user 907248721 next 61
+09-19 13:36 aiogram.event INFO     Update id=383413557 is handled. Duration 486 ms by bot id=6664233225
+09-19 13:36 root         INFO     user 907248721 liked 59
+09-19 13:36 aiogram.event INFO     Update id=383413558 is handled. Duration 356 ms by bot id=6664233225
+09-19 13:36 root         INFO     user 907248721 liked 58
+09-19 13:36 aiogram.event INFO     Update id=383413559 is handled. Duration 628 ms by bot id=6664233225
+09-19 13:36 root         INFO     user 907248721 next 57
+09-19 13:36 aiogram.event INFO     Update id=383413560 is handled. Duration 527 ms by bot id=6664233225
+09-19 13:36 root         INFO     user 907248721 liked 56
+09-19 13:36 aiogram.event INFO     Update id=383413561 is handled. Duration 514 ms by bot id=6664233225
+09-19 13:36 aiogram.event INFO     Update id=383413562 is handled. Duration 158 ms by bot id=6664233225
