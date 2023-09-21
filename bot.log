@@ -1,129 +1,195 @@
-09-21 15:19:57 asyncio      DEBUG    Using selector: EpollSelector
-09-21 15:19:57 aiogram.dispatcher INFO     Start polling
-09-21 15:19:57 aiogram.dispatcher INFO     Run polling for bot @iwmemebot id=6664233225 - 'memebot'
-09-21 15:20:22 aiogram.event INFO     Update id=383414534 is handled. Duration 523 ms by bot id=6664233225
-09-21 15:20:48 aiogram.event INFO     Update id=383414535 is handled. Duration 340 ms by bot id=6664233225
-09-21 15:20:50 aiogram.event INFO     Update id=383414536 is handled. Duration 415 ms by bot id=6664233225
-09-21 15:20:52 root         INFO     user 365770300 query good meme
-09-21 15:20:55 aiogram.event INFO     Update id=383414537 is handled. Duration 2731 ms by bot id=6664233225
-09-21 15:21:01 root         INFO     user 365770300 next 3449
-09-21 15:21:01 aiogram.event INFO     Update id=383414538 is handled. Duration 791 ms by bot id=6664233225
-09-21 15:21:04 root         INFO     user 365770300 liked 4264
-09-21 15:21:05 aiogram.event INFO     Update id=383414539 is handled. Duration 571 ms by bot id=6664233225
-09-21 15:21:08 root         INFO     user 365770300 disliked 554
-09-21 15:21:09 aiogram.event INFO     Update id=383414540 is handled. Duration 795 ms by bot id=6664233225
-09-21 15:21:30 root         INFO     user 365770300 query meme about old lady with gun
-09-21 15:21:31 aiogram.event INFO     Update id=383414541 is handled. Duration 1029 ms by bot id=6664233225
-09-21 15:21:33 root         INFO     user 365770300 disliked 4537
-09-21 15:21:34 aiogram.event INFO     Update id=383414542 is handled. Duration 485 ms by bot id=6664233225
-09-21 15:21:38 root         INFO     user 365770300 query old lady with gun
-09-21 15:21:38 aiogram.event INFO     Update id=383414543 is handled. Duration 208 ms by bot id=6664233225
-09-21 15:21:41 root         INFO     user 365770300 disliked 4537
-09-21 15:21:41 aiogram.event INFO     Update id=383414544 is handled. Duration 660 ms by bot id=6664233225
-09-21 15:21:42 root         INFO     user 365770300 disliked 2901
-09-21 15:21:42 aiogram.event INFO     Update id=383414545 is handled. Duration 540 ms by bot id=6664233225
-09-21 15:21:44 root         INFO     user 365770300 disliked 1387
-09-21 15:21:44 aiogram.event INFO     Update id=383414546 is handled. Duration 573 ms by bot id=6664233225
-09-21 15:21:47 root         INFO     user 365770300 disliked 3297
-09-21 15:21:48 aiogram.event INFO     Update id=383414547 is handled. Duration 941 ms by bot id=6664233225
-09-21 15:21:49 root         INFO     user 365770300 disliked 3300
-09-21 15:21:50 aiogram.event INFO     Update id=383414548 is handled. Duration 273 ms by bot id=6664233225
-09-21 15:21:59 root         INFO     user 365770300 query grandma with gun
-09-21 15:22:00 aiogram.event INFO     Update id=383414549 is handled. Duration 519 ms by bot id=6664233225
-09-21 15:22:02 root         INFO     user 365770300 disliked 2694
-09-21 15:22:03 aiogram.event INFO     Update id=383414550 is handled. Duration 1046 ms by bot id=6664233225
-09-21 15:22:11 root         INFO     user 365770300 disliked 3528
-09-21 15:22:12 aiogram.event INFO     Update id=383414551 is handled. Duration 1166 ms by bot id=6664233225
-09-21 15:22:13 root         INFO     user 365770300 disliked 4086
-09-21 15:22:14 aiogram.event INFO     Update id=383414552 is handled. Duration 734 ms by bot id=6664233225
-09-21 15:22:15 root         INFO     user 365770300 disliked 3320
-09-21 15:22:16 aiogram.event INFO     Update id=383414553 is handled. Duration 982 ms by bot id=6664233225
-09-21 15:22:27 root         INFO     user 365770300 query meme with apples
-09-21 15:22:28 aiogram.event INFO     Update id=383414554 is handled. Duration 403 ms by bot id=6664233225
-09-21 15:22:30 root         INFO     user 365770300 disliked 4113
-09-21 15:22:31 aiogram.event INFO     Update id=383414555 is handled. Duration 679 ms by bot id=6664233225
-09-21 15:22:34 root         INFO     user 365770300 disliked 3029
-09-21 15:22:34 aiogram.event INFO     Update id=383414556 is handled. Duration 390 ms by bot id=6664233225
-09-21 15:22:41 root         INFO     user 365770300 query meme about school
-09-21 15:22:42 aiogram.event INFO     Update id=383414557 is handled. Duration 648 ms by bot id=6664233225
-09-21 15:22:45 root         INFO     user 365770300 disliked 3159
-09-21 15:22:46 aiogram.event INFO     Update id=383414558 is handled. Duration 911 ms by bot id=6664233225
-09-21 15:22:55 root         INFO     user 365770300 query my reaction to that information
-09-21 15:22:56 aiogram.event INFO     Update id=383414559 is handled. Duration 520 ms by bot id=6664233225
-09-21 15:22:59 root         INFO     user 365770300 liked 2938
-09-21 15:22:59 aiogram.event INFO     Update id=383414560 is handled. Duration 295 ms by bot id=6664233225
-09-21 15:23:00 root         INFO     user 365770300 liked 2796
-09-21 15:23:01 aiogram.event INFO     Update id=383414561 is handled. Duration 984 ms by bot id=6664233225
-09-21 15:23:05 root         INFO     user 365770300 disliked 788
-09-21 15:23:05 aiogram.event INFO     Update id=383414562 is handled. Duration 621 ms by bot id=6664233225
-09-21 15:23:12 root         INFO     user 365770300 query lady weapon
-09-21 15:23:12 aiogram.event INFO     Update id=383414563 is handled. Duration 437 ms by bot id=6664233225
-09-21 15:23:15 root         INFO     user 365770300 disliked 592
-09-21 15:23:15 aiogram.event INFO     Update id=383414564 is handled. Duration 826 ms by bot id=6664233225
-09-21 15:23:22 root         INFO     user 365770300 liked 3314
-09-21 15:23:23 aiogram.event INFO     Update id=383414565 is handled. Duration 528 ms by bot id=6664233225
-09-21 15:23:28 root         INFO     user 365770300 disliked 3655
-09-21 15:23:29 aiogram.event INFO     Update id=383414566 is handled. Duration 935 ms by bot id=6664233225
-09-21 15:23:32 root         INFO     user 365770300 disliked 3328
-09-21 15:23:32 aiogram.event INFO     Update id=383414567 is handled. Duration 769 ms by bot id=6664233225
-09-21 15:23:40 root         INFO     user 365770300 query thiev
-09-21 15:23:40 aiogram.event INFO     Update id=383414568 is handled. Duration 782 ms by bot id=6664233225
-09-21 15:23:49 root         INFO     user 365770300 query meme about mathematics
-09-21 15:23:49 aiogram.event INFO     Update id=383414569 is handled. Duration 407 ms by bot id=6664233225
-09-21 15:23:51 root         INFO     user 365770300 disliked 1202
-09-21 15:23:52 aiogram.event INFO     Update id=383414570 is handled. Duration 848 ms by bot id=6664233225
-09-21 15:23:55 root         INFO     user 365770300 query not great
-09-21 15:23:55 aiogram.event INFO     Update id=383414571 is handled. Duration 530 ms by bot id=6664233225
-09-21 15:24:00 root         INFO     user 365770300 next 2993
-09-21 15:24:01 aiogram.event INFO     Update id=383414572 is handled. Duration 323 ms by bot id=6664233225
-09-21 15:24:02 root         INFO     user 365770300 next 788
-09-21 15:24:03 aiogram.event INFO     Update id=383414573 is handled. Duration 766 ms by bot id=6664233225
-09-21 15:24:05 root         INFO     user 365770300 next 3053
-09-21 15:24:06 aiogram.event INFO     Update id=383414574 is handled. Duration 428 ms by bot id=6664233225
-09-21 15:24:07 root         INFO     user 365770300 next 3824
-09-21 15:24:08 aiogram.event INFO     Update id=383414575 is handled. Duration 845 ms by bot id=6664233225
-09-21 15:24:09 root         INFO     user 365770300 next 4127
-09-21 15:24:09 aiogram.event INFO     Update id=383414576 is handled. Duration 334 ms by bot id=6664233225
-09-21 15:25:42 root         INFO     user 365770300 query granny holds gun
-09-21 15:25:43 aiogram.event INFO     Update id=383414577 is handled. Duration 461 ms by bot id=6664233225
-09-21 15:25:47 root         INFO     user 365770300 liked 3824
-09-21 15:25:47 aiogram.event INFO     Update id=383414578 is handled. Duration 607 ms by bot id=6664233225
-09-21 15:25:53 root         INFO     user 365770300 disliked 3414
-09-21 15:25:54 aiogram.event INFO     Update id=383414579 is handled. Duration 813 ms by bot id=6664233225
-09-21 15:26:01 root         INFO     user 365770300 query /for_yoy
-09-21 15:26:01 aiogram.event INFO     Update id=383414580 is handled. Duration 763 ms by bot id=6664233225
-09-21 15:26:08 aiogram.event INFO     Update id=383414581 is handled. Duration 706 ms by bot id=6664233225
-09-21 15:26:11 root         INFO     user 365770300 liked 397
-09-21 15:26:12 aiogram.event INFO     Update id=383414582 is handled. Duration 642 ms by bot id=6664233225
-09-21 15:26:18 aiogram.event INFO     Update id=383414583 is handled. Duration 581 ms by bot id=6664233225
-09-21 15:26:22 root         INFO     user 365770300 liked 4216
-09-21 15:26:22 aiogram.event INFO     Update id=383414584 is handled. Duration 526 ms by bot id=6664233225
-09-21 15:26:24 root         INFO     user 365770300 disliked 554
-09-21 15:26:25 aiogram.event INFO     Update id=383414585 is handled. Duration 808 ms by bot id=6664233225
-09-21 15:26:37 root         INFO     user 365770300 liked 2445
-09-21 15:26:38 aiogram.event INFO     Update id=383414586 is handled. Duration 1302 ms by bot id=6664233225
-09-21 15:26:42 root         INFO     user 365770300 disliked 1898
-09-21 15:26:42 aiogram.event INFO     Update id=383414587 is handled. Duration 709 ms by bot id=6664233225
-09-21 15:27:04 aiogram.event INFO     Update id=383414588 is handled. Duration 317 ms by bot id=6664233225
-09-21 15:27:06 aiogram.event INFO     Update id=383414589 is handled. Duration 347 ms by bot id=6664233225
-09-21 15:27:13 root         INFO     user 365770300 query granny holds gun
-09-21 15:27:13 aiogram.event INFO     Update id=383414590 is handled. Duration 243 ms by bot id=6664233225
-09-21 15:27:16 root         INFO     user 365770300 liked 3824
-09-21 15:27:17 aiogram.event INFO     Update id=383414591 is handled. Duration 290 ms by bot id=6664233225
-09-21 15:27:18 root         INFO     user 365770300 next 3414
-09-21 15:27:18 aiogram.event INFO     Update id=383414592 is handled. Duration 273 ms by bot id=6664233225
-09-21 15:27:20 root         INFO     user 365770300 disliked 3403
-09-21 15:27:21 aiogram.event INFO     Update id=383414593 is handled. Duration 502 ms by bot id=6664233225
-09-21 15:27:27 aiogram.event INFO     Update id=383414594 is handled. Duration 533 ms by bot id=6664233225
-09-21 15:27:31 root         INFO     user 365770300 liked 177
-09-21 15:27:32 aiogram.event INFO     Update id=383414595 is handled. Duration 728 ms by bot id=6664233225
-09-21 15:27:36 aiogram.event INFO     Update id=383414596 is handled. Duration 92 ms by bot id=6664233225
-09-21 15:27:39 root         INFO     user 365770300 next 4264
-09-21 15:27:40 aiogram.event INFO     Update id=383414597 is handled. Duration 776 ms by bot id=6664233225
-09-21 15:27:42 root         INFO     user 365770300 next 447
-09-21 15:27:44 aiogram.event INFO     Update id=383414598 is handled. Duration 1015 ms by bot id=6664233225
-09-21 15:27:46 root         INFO     user 365770300 liked 2067
-09-21 15:27:46 aiogram.event INFO     Update id=383414599 is handled. Duration 781 ms by bot id=6664233225
-09-21 15:29:01 aiogram.dispatcher WARNING  Received SIGINT signal
-09-21 15:29:01 aiogram.dispatcher INFO     Polling stopped for bot @iwmemebot id=6664233225 - 'memebot'
-09-21 15:29:01 aiogram.dispatcher INFO     Polling stopped
+09-21 15:59:19 asyncio      DEBUG    Using selector: EpollSelector
+09-21 15:59:19 aiogram.dispatcher INFO     Start polling
+09-21 15:59:20 aiogram.dispatcher INFO     Run polling for bot @iwmemebot id=6664233225 - 'memebot'
+09-21 16:02:11 aiogram.event INFO     Update id=383414600 is handled. Duration 492 ms by bot id=6664233225
+09-21 16:02:14 aiogram.event INFO     Update id=383414601 is handled. Duration 466 ms by bot id=6664233225
+09-21 16:02:31 root         INFO     user 907248721 query волк тот кто
+09-21 16:02:32 aiogram.event INFO     Update id=383414602 is handled. Duration 671 ms by bot id=6664233225
+09-21 16:03:04 root         INFO     user 907248721 liked 2793
+09-21 16:03:05 aiogram.event INFO     Update id=383414603 is handled. Duration 905 ms by bot id=6664233225
+09-21 16:03:11 root         INFO     user 907248721 query волк важно кто
+09-21 16:03:11 aiogram.event INFO     Update id=383414604 is handled. Duration 515 ms by bot id=6664233225
+09-21 16:03:37 root         INFO     user 907248721 next 59
+09-21 16:03:37 aiogram.event INFO     Update id=383414605 is handled. Duration 523 ms by bot id=6664233225
+09-21 16:04:03 root         INFO     user 907248721 query важно кто
+09-21 16:04:04 aiogram.event INFO     Update id=383414606 is handled. Duration 585 ms by bot id=6664233225
+09-21 16:04:24 root         INFO     user 907248721 next 3029
+09-21 16:04:26 aiogram.event INFO     Update id=383414607 is handled. Duration 2071 ms by bot id=6664233225
+09-21 16:04:38 root         INFO     user 907248721 query волк важно кто
+09-21 16:04:38 aiogram.event INFO     Update id=383414608 is handled. Duration 231 ms by bot id=6664233225
+09-21 16:05:53 root         INFO     user 907248721 next 59
+09-21 16:05:54 aiogram.event INFO     Update id=383414609 is handled. Duration 707 ms by bot id=6664233225
+09-21 16:06:01 root         INFO     user 907248721 query пикачу
+09-21 16:06:02 aiogram.event INFO     Update id=383414610 is handled. Duration 1058 ms by bot id=6664233225
+09-21 16:06:05 root         INFO     user 907248721 next 4600
+09-21 16:06:09 aiogram.event INFO     Update id=383414611 is handled. Duration 4517 ms by bot id=6664233225
+09-21 16:06:12 root         INFO     user 907248721 liked 3222
+09-21 16:06:13 aiogram.event INFO     Update id=383414612 is handled. Duration 774 ms by bot id=6664233225
+09-21 16:06:41 root         INFO     user 907248721 next 3325
+09-21 16:06:42 aiogram.event INFO     Update id=383414613 is handled. Duration 1131 ms by bot id=6664233225
+09-21 16:06:44 root         INFO     user 907248721 liked 1214
+09-21 16:06:45 aiogram.event INFO     Update id=383414614 is handled. Duration 710 ms by bot id=6664233225
+09-21 16:08:22 root         INFO     user 907248721 next 1022
+09-21 16:08:22 aiogram.event INFO     Update id=383414615 is handled. Duration 480 ms by bot id=6664233225
+09-21 16:09:04 root         INFO     user 907248721 query когда хаха делать
+09-21 16:09:05 aiogram.event INFO     Update id=383414616 is handled. Duration 538 ms by bot id=6664233225
+09-21 16:09:45 root         INFO     user 907248721 liked 1605
+09-21 16:09:47 aiogram.event INFO     Update id=383414617 is handled. Duration 1413 ms by bot id=6664233225
+09-21 16:09:54 root         INFO     user 907248721 next 3257
+09-21 16:09:54 aiogram.event INFO     Update id=383414618 is handled. Duration 663 ms by bot id=6664233225
+09-21 16:09:57 root         INFO     user 907248721 next 3228
+09-21 16:09:58 aiogram.event INFO     Update id=383414619 is handled. Duration 1011 ms by bot id=6664233225
+09-21 16:10:15 root         INFO     user 907248721 next 2828
+09-21 16:10:16 aiogram.event INFO     Update id=383414620 is handled. Duration 920 ms by bot id=6664233225
+09-21 16:10:19 root         INFO     user 907248721 liked 1645
+09-21 16:10:20 aiogram.event INFO     Update id=383414621 is handled. Duration 311 ms by bot id=6664233225
+09-21 16:17:52 aiogram.event INFO     Update id=383414622 is handled. Duration 643 ms by bot id=6664233225
+09-21 16:17:56 aiogram.event INFO     Update id=383414623 is handled. Duration 474 ms by bot id=6664233225
+09-21 16:18:08 root         INFO     user 366698049 query popular
+09-21 16:18:10 aiogram.event INFO     Update id=383414624 is handled. Duration 1824 ms by bot id=6664233225
+09-21 16:18:15 root         INFO     user 366698049 liked 4180
+09-21 16:18:16 aiogram.event INFO     Update id=383414625 is handled. Duration 929 ms by bot id=6664233225
+09-21 16:18:25 root         INFO     user 366698049 liked 2483
+09-21 16:18:26 aiogram.event INFO     Update id=383414626 is handled. Duration 708 ms by bot id=6664233225
+09-21 16:18:30 root         INFO     user 366698049 liked 4282
+09-21 16:18:31 aiogram.event INFO     Update id=383414627 is handled. Duration 528 ms by bot id=6664233225
+09-21 16:18:42 aiogram.event INFO     Update id=383414628 is handled. Duration 780 ms by bot id=6664233225
+09-21 16:18:47 root         INFO     user 366698049 disliked 3062
+09-21 16:18:48 aiogram.event INFO     Update id=383414629 is handled. Duration 828 ms by bot id=6664233225
+09-21 16:18:57 root         INFO     user 366698049 liked 291
+09-21 16:18:58 aiogram.event INFO     Update id=383414630 is handled. Duration 497 ms by bot id=6664233225
+09-21 16:19:00 root         INFO     user 366698049 liked 619
+09-21 16:19:01 aiogram.event INFO     Update id=383414631 is handled. Duration 486 ms by bot id=6664233225
+09-21 16:20:16 aiogram.event INFO     Update id=383414632 is handled. Duration 309 ms by bot id=6664233225
+09-21 16:20:19 aiogram.event INFO     Update id=383414633 is handled. Duration 300 ms by bot id=6664233225
+09-21 16:20:48 root         INFO     user 542397764 query /for_yoy
+09-21 16:20:49 aiogram.event INFO     Update id=383414634 is handled. Duration 813 ms by bot id=6664233225
+09-21 16:20:57 aiogram.event INFO     Update id=383414635 is handled. Duration 580 ms by bot id=6664233225
+09-21 16:35:59 root         INFO     user 907248721 query волк
+09-21 16:36:00 aiogram.event INFO     Update id=383414636 is handled. Duration 766 ms by bot id=6664233225
+09-21 16:36:02 root         INFO     user 907248721 next 2793
+09-21 16:36:03 aiogram.event INFO     Update id=383414637 is handled. Duration 1047 ms by bot id=6664233225
+09-21 16:36:10 root         INFO     user 907248721 liked 2775
+09-21 16:36:11 aiogram.event INFO     Update id=383414638 is handled. Duration 1055 ms by bot id=6664233225
+09-21 16:36:15 root         INFO     user 907248721 liked 4299
+09-21 16:36:16 aiogram.event INFO     Update id=383414639 is handled. Duration 952 ms by bot id=6664233225
+09-21 16:36:18 root         INFO     user 907248721 next 58
+09-21 16:36:18 aiogram.event INFO     Update id=383414640 is handled. Duration 588 ms by bot id=6664233225
+09-21 16:36:22 root         INFO     user 907248721 next 4235
+09-21 16:36:22 aiogram.event INFO     Update id=383414641 is handled. Duration 307 ms by bot id=6664233225
+09-21 16:36:25 root         INFO     user 907248721 query волк
+09-21 16:36:25 aiogram.event INFO     Update id=383414642 is handled. Duration 183 ms by bot id=6664233225
+09-21 16:36:27 root         INFO     user 907248721 next 2793
+09-21 16:36:28 aiogram.event INFO     Update id=383414643 is handled. Duration 671 ms by bot id=6664233225
+09-21 16:36:30 root         INFO     user 907248721 next 60
+09-21 16:36:30 aiogram.event INFO     Update id=383414644 is handled. Duration 625 ms by bot id=6664233225
+09-21 16:36:34 root         INFO     user 907248721 next 536
+09-21 16:36:35 aiogram.event INFO     Update id=383414645 is handled. Duration 714 ms by bot id=6664233225
+09-21 16:36:57 aiogram.event INFO     Update id=383414646 is handled. Duration 300 ms by bot id=6664233225
+09-21 16:37:00 aiogram.event INFO     Update id=383414647 is handled. Duration 534 ms by bot id=6664233225
+09-21 16:37:17 root         INFO     user 320411923 query кот
+09-21 16:37:18 aiogram.event INFO     Update id=383414648 is handled. Duration 492 ms by bot id=6664233225
+09-21 16:37:27 root         INFO     user 320411923 liked 2694
+09-21 16:37:28 root         INFO     user 907248721 query кот
+09-21 16:37:28 aiogram.event INFO     Update id=383414650 is handled. Duration 643 ms by bot id=6664233225
+09-21 16:37:28 aiogram.event INFO     Update id=383414649 is handled. Duration 952 ms by bot id=6664233225
+09-21 16:37:31 root         INFO     user 320411923 liked 3757
+09-21 16:37:32 aiogram.event INFO     Update id=383414651 is handled. Duration 950 ms by bot id=6664233225
+09-21 16:37:38 root         INFO     user 320411923 liked 3772
+09-21 16:37:39 aiogram.event INFO     Update id=383414652 is handled. Duration 655 ms by bot id=6664233225
+09-21 16:37:44 root         INFO     user 320411923 next 739
+09-21 16:37:44 aiogram.event INFO     Update id=383414653 is handled. Duration 682 ms by bot id=6664233225
+09-21 16:37:50 aiogram.event INFO     Update id=383414654 is handled. Duration 739 ms by bot id=6664233225
+09-21 16:37:55 root         INFO     user 320411923 next 47
+09-21 16:37:56 aiogram.event INFO     Update id=383414655 is handled. Duration 558 ms by bot id=6664233225
+09-21 16:37:59 root         INFO     user 320411923 next 4041
+09-21 16:37:59 aiogram.event INFO     Update id=383414656 is handled. Duration 645 ms by bot id=6664233225
+09-21 16:38:02 root         INFO     user 320411923 next 1577
+09-21 16:38:02 aiogram.event INFO     Update id=383414657 is handled. Duration 756 ms by bot id=6664233225
+09-21 16:38:04 root         INFO     user 320411923 next 602
+09-21 16:38:05 aiogram.event INFO     Update id=383414658 is handled. Duration 658 ms by bot id=6664233225
+09-21 16:38:07 root         INFO     user 320411923 next 2203
+09-21 16:38:07 aiogram.event INFO     Update id=383414659 is handled. Duration 310 ms by bot id=6664233225
+09-21 16:38:15 root         INFO     user 320411923 query о нет
+09-21 16:38:16 aiogram.event INFO     Update id=383414660 is handled. Duration 727 ms by bot id=6664233225
+09-21 16:38:30 root         INFO     user 907248721 query о нет
+09-21 16:38:30 aiogram.event INFO     Update id=383414661 is handled. Duration 528 ms by bot id=6664233225
+09-21 16:38:34 root         INFO     user 907248721 next 4560
+09-21 16:38:35 aiogram.event INFO     Update id=383414662 is handled. Duration 553 ms by bot id=6664233225
+09-21 16:38:48 root         INFO     user 320411923 query что теперь делать?
+09-21 16:38:48 aiogram.event INFO     Update id=383414663 is handled. Duration 361 ms by bot id=6664233225
+09-21 16:39:16 root         INFO     user 907248721 query что теперь делать?
+09-21 16:39:17 aiogram.event INFO     Update id=383414664 is handled. Duration 403 ms by bot id=6664233225
+09-21 16:39:41 root         INFO     user 320411923 query мем с уткой
+09-21 16:39:42 aiogram.event INFO     Update id=383414665 is handled. Duration 1418 ms by bot id=6664233225
+09-21 16:39:47 root         INFO     user 320411923 next 2865
+09-21 16:39:47 aiogram.event INFO     Update id=383414666 is handled. Duration 537 ms by bot id=6664233225
+09-21 16:39:51 root         INFO     user 320411923 next 2250
+09-21 16:39:52 aiogram.event INFO     Update id=383414667 is handled. Duration 644 ms by bot id=6664233225
+09-21 16:39:54 root         INFO     user 320411923 next 1542
+09-21 16:39:54 aiogram.event INFO     Update id=383414668 is handled. Duration 640 ms by bot id=6664233225
+09-21 16:39:58 root         INFO     user 320411923 next 3337
+09-21 16:39:59 aiogram.event INFO     Update id=383414669 is handled. Duration 860 ms by bot id=6664233225
+09-21 16:40:03 root         INFO     user 320411923 next 3933
+09-21 16:40:04 aiogram.event INFO     Update id=383414670 is handled. Duration 431 ms by bot id=6664233225
+09-21 16:40:23 root         INFO     user 320411923 query когда не выдают больше пяти мемов
+09-21 16:40:23 aiogram.event INFO     Update id=383414671 is handled. Duration 564 ms by bot id=6664233225
+09-21 16:40:27 root         INFO     user 320411923 next 4127
+09-21 16:40:28 aiogram.event INFO     Update id=383414672 is handled. Duration 779 ms by bot id=6664233225
+09-21 16:40:30 root         INFO     user 320411923 next 3010
+09-21 16:40:31 aiogram.event INFO     Update id=383414673 is handled. Duration 559 ms by bot id=6664233225
+09-21 16:40:34 root         INFO     user 320411923 next 3747
+09-21 16:40:35 aiogram.event INFO     Update id=383414674 is handled. Duration 530 ms by bot id=6664233225
+09-21 16:40:37 root         INFO     user 320411923 next 497
+09-21 16:40:38 aiogram.event INFO     Update id=383414675 is handled. Duration 629 ms by bot id=6664233225
+09-21 16:40:42 root         INFO     user 320411923 next 1974
+09-21 16:40:43 aiogram.event INFO     Update id=383414676 is handled. Duration 434 ms by bot id=6664233225
+09-21 16:40:54 root         INFO     user 320411923 query кому нужна работа
+09-21 16:40:54 aiogram.event INFO     Update id=383414677 is handled. Duration 434 ms by bot id=6664233225
+09-21 16:40:59 root         INFO     user 320411923 next 3122
+09-21 16:41:00 aiogram.event INFO     Update id=383414678 is handled. Duration 1172 ms by bot id=6664233225
+09-21 16:41:04 root         INFO     user 320411923 next 2788
+09-21 16:41:05 aiogram.event INFO     Update id=383414679 is handled. Duration 1310 ms by bot id=6664233225
+09-21 16:41:10 root         INFO     user 320411923 next 3179
+09-21 16:41:10 aiogram.event INFO     Update id=383414680 is handled. Duration 326 ms by bot id=6664233225
+09-21 16:41:12 root         INFO     user 320411923 next 3933
+09-21 16:41:12 aiogram.event INFO     Update id=383414681 is handled. Duration 392 ms by bot id=6664233225
+09-21 16:41:27 root         INFO     user 907248721 next 2993
+09-21 16:41:28 aiogram.event INFO     Update id=383414682 is handled. Duration 690 ms by bot id=6664233225
+09-21 16:42:59 aiogram.event INFO     Update id=383414683 is not handled. Duration 0 ms by bot id=6664233225
+09-21 16:42:59 aiogram.event ERROR    Cause exception while process update id=383414683 by bot id=6664233225
+KeyError: '429179283'
+Traceback (most recent call last):
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/mnt/c/Users/123/Desktop/IW/meme_env/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/mnt/c/Users/123/Desktop/IW/memebot/memebot.py", line 235, in callbacks_num
+    cur_usr_emb = USER_EMBEDDINGS[USER_ID2NUM[str(user_id)]]
+KeyError: '429179283'
+09-21 16:45:59 aiogram.event INFO     Update id=383414684 is handled. Duration 795 ms by bot id=6664233225
+09-21 16:46:11 aiogram.dispatcher WARNING  Received SIGINT signal
+09-21 16:46:11 aiogram.dispatcher INFO     Polling stopped for bot @iwmemebot id=6664233225 - 'memebot'
+09-21 16:46:11 aiogram.dispatcher INFO     Polling stopped
