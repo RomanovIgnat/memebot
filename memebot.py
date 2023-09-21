@@ -55,7 +55,7 @@ async def send_welcome(message: types.Message, user_id=None):
         return
     if USER_LANG[USER_ID2NUM[str(user_id)]] == 'ru':
         await message.answer(
-            "Привет!\nЯ Мемный Бот Memele!\n"
+            "Привет!\nЯ Мемный Бот Memly!\n"
             "Я помогу тебе найти любой мем! Ты можешь отправить мне:\n"
             "1. Описание мема или его текст\n"
             "2. /for_you - мемы заботливо отобранные специально для тебя\n"
@@ -65,7 +65,7 @@ async def send_welcome(message: types.Message, user_id=None):
         )
     else:
         await message.answer(
-            "Hi!\nI'm Meme Bot Memele!\n"
+            "Hi!\nI'm Meme Bot Memly!\n"
             "I will help you find any meme! You can send me:\n"
             "1. Description of the meme or its text\n"
             "2. /for_you - memes carefully selected especially for you\n"
