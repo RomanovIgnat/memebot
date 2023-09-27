@@ -30,12 +30,11 @@ def lemmatize(tokens):
 
 
 if __name__ == '__main__':
-    # path = 'mem2captureRuEn.txt'
-    # res = []
-    # with open(path, 'r') as fin, open('mem2captureLem.txt', 'w') as fout:
-    #     lines = fin.readlines()
-    #     for line in lines:
-    #         out_line = lemmatize(line.strip().split())
-    #         res.append(' '.join(out_line) + '\n')
-    #     fout.writelines(res)
-    print(lemmatize('fablab skoltech fan enjoyer iw innovation workshop фанат ценитель сколтех фаблаб сойджек гигачад чад'.split()))
+    path = 'mem2captureRuEn.txt'
+    res = []
+    with open(path, 'r') as fin, open('mem2captureLem.txt', 'w') as fout:
+        lines = fin.readlines()
+        for line in lines:
+            out_line = lemmatize(line.strip().split())
+            res.append(' '.join(out_line) + '\n')
+        fout.writelines(res)

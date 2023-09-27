@@ -6,5 +6,9 @@ test3.py
 test4.py
 test5.py
 test6.py
+test7.py
 pending/
 statsfiles/
+images/
+bot.log
+images.tar.gz
