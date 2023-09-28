@@ -19,6 +19,9 @@ dp = Dispatcher()
 bot = Bot(token=os.environ['BOT_TOKEN'])
 
 
+BANNED_MEMES = [4642]
+
+
 def get_keyboard_lang():
     builder = InlineKeyboardBuilder()
     builder.button(text="english", callback_data='en')
@@ -148,7 +151,8 @@ async def look_mem(message: types.Message, user_id=None):
         if str(user_id) not in USER_ID2NUM.keys():
             await choose_lang(message)
             return
-        CURRENT_USER_DATA[user_id] = get_data_for_user(mode=message.text[1:], user_id=user_id)
+        data = get_data_for_user(mode=message.text[1:], user_id=user_id)
+        CURRENT_USER_DATA[user_id] = [x for x in data if x not in BANNED_MEMES]
 
     user_data = CURRENT_USER_DATA[user_id]
     cur_display = user_data[-1]
@@ -173,9 +177,10 @@ async def find_mem(message: types.Message, user_id=None):
             return
         logging.info(f'user {user_id} query {message.text.lower()}')
         query = ''.join([c if c.isalpha() else " " for c in message.text.lower().strip()])
-        CURRENT_USER_DATA[user_id] = get_data_for_user(
+        data = get_data_for_user(
             mode='search', user_id=user_id, query=set(lemmatize(query.split()))
         )
+        CURRENT_USER_DATA[user_id] = [x for x in data if x not in BANNED_MEMES]
 
     user_data = CURRENT_USER_DATA[user_id]
     cur_display = user_data[-1]
