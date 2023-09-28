@@ -12,3 +12,5 @@ statsfiles/
 images/
 bot.log
 images.tar.gz
+stats.ipynb
+.ipynb_checkpoints/

@@ -19,7 +19,7 @@ dp = Dispatcher()
 bot = Bot(token=os.environ['BOT_TOKEN'])
 
 
-BANNED_MEMES = [4642]
+BANNED_MEMES = [4642, 4112]
 
 
 def get_keyboard_lang():
